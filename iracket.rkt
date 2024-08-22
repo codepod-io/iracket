@@ -61,7 +61,7 @@
                  [sandbox-security-guard      (current-security-guard)] 
                  ;; [sandbox-exit-handler        _] ;; trusted = (exit-handler)
                  ;; [sandbox-make-inspector      _] ;; trusted = current-inspector
-                 ;; [sandbox-make-code-inspector _] ;; trusted = current-code-inspector
+                 [sandbox-make-code-inspector current-code-inspector] ;; trusted = current-code-inspector
                  ;; [sandbox-make-plumber 'propagate] ;; trusted = current-plumber
                  ;; [sandbox-make-environment-variables *copy*] ;; trusted = current-environment-variables
                  ;; -- Same as trusted:
